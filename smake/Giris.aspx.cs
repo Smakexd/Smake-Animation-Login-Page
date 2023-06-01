@@ -27,7 +27,7 @@ public partial class Giris : System.Web.UI.Page
         {
             Session["giris"] = "ok";
             Session["kim"] = TextBox1.Text;
-            Response.Redirect("kayit.aspx");
+            Response.Redirect("#");
         }
         else
         {
